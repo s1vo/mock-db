@@ -1,0 +1,1388 @@
+{
+  "org_types": [
+    { "id_org_type": 1, "type_name": "СО" },
+    { "id_org_type": 2, "type_name": "РНО" },
+    { "id_org_type": 3, "type_name": "Администрация" },
+    { "id_org_type": 4, "type_name": "Министерство" },
+    { "id_org_type": 5, "type_name": "РСО" }
+  ],
+  "group_sections": [
+    { "id_group_section": 22, "id_group": 1, "title": "Технологическое присоединение" },
+    { "id_group_section": 24, "id_group": 1, "title": "Инвест программы" },
+    { "id_group_section": 25, "id_group": 1, "title": "ЕДДС" },
+    { "id_group_section": 27, "id_group": 4, "title": "Реестры" },
+    { "id_group_section": 28, "id_group": 4, "title": "Карты" },
+    { "id_group_section": 41, "id_group": 1, "title": "Админ-панель" },
+    { "id_group_section": 46, "id_group": 1, "title": "МКД" },
+    { "id_group_section": 49, "id_group": 1, "title": "ОКС" }
+  ],
+  "groups": [
+    { "id_group": 2, "group_name": "Сотрудник АРКИ", "group_descr": "" },
+    { "id_group": 1, "group_name": "Администратор", "group_descr": "Администратор системы" },
+    { "id_group": 9, "group_name": "Демонстрация", "group_descr": "Для демонстраций системы" },
+    { "id_group": 4, "group_name": "Диспетчер ЕДДС", "group_descr": "Диспетчера ЕДДС" },
+    { "id_group": 7, "group_name": "Администратор организации", "group_descr": "Администратор организации" },
+    { "id_group": 6, "group_name": "Инвест программы", "group_descr": "Инвест программы" },
+    { "id_group": 3, "group_name": "Сотрудник РСО", "group_descr": "" }
+  ],
+  "orgs": [
+    {
+      "id_org": 10,
+      "id_org_type": 5,
+      "id_tu_mun_raion": 4,
+      "org_name": "Тест РСО",
+      "region": "",
+      "guid": "0b33be42-c8a0-448f-8e6e-2a9d89c1e02c",
+      "phone": "+7(999)888-99-00",
+      "email": "test@mail.ru",
+      "website": "test.ru",
+      "is_bind_phone": 0,
+      "inn": "7730052050"
+    },
+    {
+      "id_org": 9,
+      "id_org_type": 3,
+      "id_tu_mun_raion": 4,
+      "org_name": "РусЭнергоСервис",
+      "region": "Московская область",
+      "guid": "03e00d52-bd59-4c79-b400-7e10d34c43bc",
+      "phone": "+7(899)977-76-65",
+      "email": "test2@sobaka.ru",
+      "website": "",
+      "is_bind_phone": 0,
+      "inn": "12345678"
+    },
+    {
+      "id_org": 2,
+      "id_org_type": 1,
+      "id_tu_mun_raion": 4,
+      "org_name": "Новая организация",
+      "region": "",
+      "guid": "dff6e0cd-7e46-472b-9a34-5eebd60f28a2",
+      "phone": "+7(999)888-77-66",
+      "email": "test@gmail.com",
+      "website": "modniytypchik@yandex.com",
+      "is_bind_phone": 1,
+      "inn": ""
+    }
+  ],
+  "users": {
+    "data": [
+      {
+        "id_user": 9,
+        "id_org": 9,
+        "login": "ovinovaes",
+        "pass": "9cd73bc649f43baf7dbee230608c107d",
+        "fm": "Овинова",
+        "im": "Елизавета",
+        "ot": "Сергеевна",
+        "email": "admin@rgisprio.ru",
+        "phone": "+7(999)888-77-66",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2024-03-04",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 5,
+        "id_org": 9,
+        "login": "zifirys",
+        "pass": "bd8fce5fbc2606819051e5bf617d23c2",
+        "fm": "Джулакян",
+        "im": "Татьяна",
+        "ot": "Владимировна",
+        "email": "dzhulakyan@rosenservis.ru",
+        "phone": "+7(893)819-50-89",
+        "phone_work": "+7(999)888-77-66",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2023-08-23",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 1,
+        "id_org": 9,
+        "login": "baturinam",
+        "pass": "49266968b01daef8d8484f72a9e4557b",
+        "fm": "Батурин",
+        "im": "Александр",
+        "ot": "Михайлович",
+        "email": "cdkatunfox@gmail.com",
+        "phone": "+7(899)985-37-89",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2023-07-03",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 7,
+        "id_org": 10,
+        "login": "test_rso",
+        "pass": "4bc196f887229f6f63e65f809e854dbd",
+        "fm": "Батурин",
+        "im": "Александр",
+        "ot": "Михайлович",
+        "email": "test@sobaka.ru",
+        "phone": "+7(999)888-77-66",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2024-02-20",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 4,
+        "id_org": 2,
+        "login": "ushakovas",
+        "pass": "ushakovas",
+        "fm": "Ушаков",
+        "im": "Александр",
+        "ot": "Сергеевич",
+        "email": "ushakov@rosenservis.ru",
+        "phone": "+7(999)999-99-99",
+        "phone_work": "+7(923)999-99-99",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2023-07-04",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 2,
+        "id_org": 9,
+        "login": "sivokonma",
+        "pass": "1441ff51079cf231cd402ec2709b1985",
+        "fm": "Сивоконь",
+        "im": "Михаил",
+        "ot": "Алексеевич",
+        "email": "s1vo13@yandex.ru",
+        "phone": "+7(919)999-13-94",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2023-07-03",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 10,
+        "id_org": 9,
+        "login": "kozhevnikovk",
+        "pass": "bb3f6cc8de4e431bd43132a17e24f477",
+        "fm": "Кожевников",
+        "im": "Кирилл",
+        "ot": "Александрович",
+        "email": "asdasd@mail.ru",
+        "phone": "+7(922)283-91-21",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2024-04-16",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 11,
+        "id_org": 9,
+        "login": "zavorotnayaob",
+        "pass": "12060f100e6e1d7fee38ab07ec09c2b4",
+        "fm": "Заворотная",
+        "im": "Ольга",
+        "ot": "Борисовна",
+        "email": "test@test.ru",
+        "phone": "+7(123)456-78-90",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2024-05-02",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 3,
+        "id_org": 9,
+        "login": "gadisovad",
+        "pass": "d0d313fb459a8102a86b0709a7642a47",
+        "fm": "Гадисов",
+        "im": "Абдурахман",
+        "ot": "Джангишиевич",
+        "email": "gadisov@rosenservis.ru",
+        "phone": "+7(999)123-45-67",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2023-07-03",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 6,
+        "id_org": 9,
+        "login": "kukumajr",
+        "pass": "5ed1596bade7bbbda0bf051aaed0579c",
+        "fm": "Загребаев",
+        "im": "Денис",
+        "ot": "Сергеевич",
+        "email": "zagrebaev.deniss@gmail.com",
+        "phone": "+7(999)999-99-99",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2023-11-15",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 51,
+        "id_org": 9,
+        "login": "demo",
+        "pass": "4fb8cfeccaae6de2d3cfdca21a849970",
+        "fm": "Демо",
+        "im": "Демо",
+        "ot": "Демо",
+        "email": "test@demo.ru",
+        "phone": "+7(123)456-78-90",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2024-09-23",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 52,
+        "id_org": 9,
+        "login": "vekaretnikov",
+        "pass": "0da08b43c546a2a2755b6c04feeac12d",
+        "fm": "Каретников",
+        "im": "Вадим",
+        "ot": "Евгеньевич",
+        "email": "Karetnikov@mail.ru",
+        "phone": "+7(925)086-06-06",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2025-02-03",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 53,
+        "id_org": 9,
+        "login": "buharovka",
+        "pass": "3235ee16a267abb1691377c97323ca30",
+        "fm": "Бухаров",
+        "im": "Константин",
+        "ot": "Анатольевич",
+        "email": "test@email.com",
+        "phone": "+7(123)456-78-90",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2025-03-13",
+        "d_last_activ": "",
+        "id_start_group": null
+      },
+      {
+        "id_user": 54,
+        "id_org": 9,
+        "login": "putilinaa",
+        "pass": "ba441bd17fb330b06019df69533a89af",
+        "fm": "Путилин",
+        "im": "Александр",
+        "ot": "Александрович",
+        "email": "putilin93@gmail.com",
+        "phone": "+7(999)999-99-99",
+        "phone_work": "",
+        "phone_add": "",
+        "d_last_act": "",
+        "is_delete": 0,
+        "d_create": "2025-04-14",
+        "d_last_activ": "",
+        "id_start_group": null
+      }
+    ],
+    "countRecords": 14,
+    "countPages": 2
+  },
+  "user_groups": [
+    {
+      "id_user_group": 1,
+      "id_user": 15,
+      "id_group": 5
+    },
+    {
+      "id_user_group": 2,
+      "id_user": 1,
+      "id_group": 1
+    },
+    {
+      "id_user_group": 3,
+      "id_user": 1,
+      "id_group": 5
+    },
+    {
+      "id_user_group": 4,
+      "id_user": 1,
+      "id_group": 4
+    },
+    {
+      "id_user_group": 5,
+      "id_user": 10,
+      "id_group": 5
+    },
+    {
+      "id_user_group": 6,
+      "id_user": 13,
+      "id_group": 3
+    },
+    {
+      "id_user_group": 7,
+      "id_user": 8,
+      "id_group": 3
+    },
+    {
+      "id_user_group": 8,
+      "id_user": 1,
+      "id_group": 2
+    },
+    {
+      "id_user_group": 9,
+      "id_user": 9,
+      "id_group": 1
+    },
+    {
+      "id_user_group": 10,
+      "id_user": 1,
+      "id_group": 4
+    },
+    {
+      "id_user_group": 11,
+      "id_user": 7,
+      "id_group": 2
+    },
+    {
+      "id_user_group": 12,
+      "id_user": 7,
+      "id_group": 3
+    },
+    {
+      "id_user_group": 13,
+      "id_user": 1,
+      "id_group": 5
+    },
+    {
+      "id_user_group": 14,
+      "id_user": 6,
+      "id_group": 1
+    },
+    {
+      "id_user_group": 15,
+      "id_user": 5,
+      "id_group": 4
+    },
+    {
+      "id_user_group": 16,
+      "id_user": 11,
+      "id_group": 4
+    },
+    {
+      "id_user_group": 17,
+      "id_user": 15,
+      "id_group": 3
+    },
+    {
+      "id_user_group": 18,
+      "id_user": 1,
+      "id_group": 5
+    },
+    {
+      "id_user_group": 19,
+      "id_user": 14,
+      "id_group": 3
+    },
+    {
+      "id_user_group": 20,
+      "id_user": 7,
+      "id_group": 5
+    },
+    {
+      "id_user_group": 21,
+      "id_user": 2,
+      "id_group": 2
+    },
+    {
+      "id_user_group": 22,
+      "id_user": 3,
+      "id_group": 1
+    },
+    {
+      "id_user_group": 23,
+      "id_user": 5,
+      "id_group": 1
+    },
+    {
+      "id_user_group": 24,
+      "id_user": 7,
+      "id_group": 3
+    },
+    {
+      "id_user_group": 25,
+      "id_user": 14,
+      "id_group": 1
+    }
+  ],
+  "user_endpoint" : [
+    {
+      "login": "putilinaa",
+      "username":"Путилин Александр Александрович",
+      "org_name": "РусЭнергоСервис"
+    }
+  ],
+  "ozp" : {
+    "data": [
+      {
+        "row_number": 1,
+        "id": "0c770417-aa5d-4cd5-8fa6-87b2ee3116e3",
+        "heatsource_name": "Котельная микрорайона ",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-04-15",
+        "date_sd_fact": "2025-04-15",
+        "date_inc_plan": "2025-04-29",
+        "date_inc_fact": "2025-04-29",
+        "days_difference_fact": 14,
+        "days_difference_plan": 14,
+        "furnace_breach_date": "2025-04-29"
+      },
+      {
+        "row_number": 2,
+        "id": "0e6b368d-cfe9-48cd-8ecc-93d92d6ceb95",
+        "heatsource_name": "Котельный цех СКРУ-2 ПАО \"Уралкалий\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Долги",
+        "date_sd_plan": "2025-04-04",
+        "date_sd_fact": "2025-04-25",
+        "date_inc_plan": "2025-04-25",
+        "date_inc_fact": "2025-04-27",
+        "days_difference_fact": 2,
+        "days_difference_plan": 21,
+        "furnace_breach_date": "2025-04-29"
+      },
+      {
+        "row_number": 3,
+        "id": "41b18098-d671-45f9-8555-60c43e435c74",
+        "heatsource_name": "БМК \"Карналлитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-04-25",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-04-04",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": null
+      },
+      {
+        "row_number": 4,
+        "id": "4af2b444-1232-41cc-8fdd-1948b4eb700a",
+        "heatsource_name": "БМК \"Карналлитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-04-01",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-04-30",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 29,
+        "furnace_breach_date": "2025-04-29"
+      },
+      {
+        "row_number": 5,
+        "id": "66962da5-ffc8-413d-aa3c-98b6fd3993ea",
+        "heatsource_name": "Котельная микрорайона ",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-04-04",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-04-30",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 26
+      },
+      {
+        "row_number": 6,
+        "id": "78de4a8f-4c62-47e8-b83b-6e77d6b24a9e",
+        "heatsource_name": "БМК \"Карналлитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Прочее",
+        "date_sd_plan": "2025-04-27",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-04-20",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": null
+      },
+      {
+        "row_number": 7,
+        "id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+        "heatsource_name": "Котельная Северного района",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-05-10",
+        "date_sd_fact": "2025-05-15",
+        "date_inc_plan": "2025-05-25",
+        "date_inc_fact": "2025-05-28",
+        "days_difference_fact": 13,
+        "days_difference_plan": 15,
+        "furnace_breach_date": "2025-04-29"
+      },
+      {
+        "row_number": 8,
+        "id": "9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e",
+        "heatsource_name": "ТЭЦ-3 ПАО \"Уралкалий\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Сезонный",
+        "type": "Долги",
+        "date_sd_plan": "2025-05-01",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-05-31",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 30
+      },
+      {
+        "row_number": 9,
+        "id": "0c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
+        "heatsource_name": "Котельная Железнодорожного района",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Прочее",
+        "date_sd_plan": "2025-06-05",
+        "date_sd_fact": "2025-06-10",
+        "date_inc_plan": "2025-06-20",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 15,
+        "furnace_breach_date": "2025-04-29"
+      },
+      {
+        "row_number": 10,
+        "id": "1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a",
+        "heatsource_name": "БМК \"Сильвинитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-06-01",
+        "date_sd_fact": "2025-06-01",
+        "date_inc_plan": "2025-06-30",
+        "date_inc_fact": "2025-06-30",
+        "days_difference_fact": 29,
+        "days_difference_plan": 29
+      },
+      {
+        "row_number": 11,
+        "id": "2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b",
+        "heatsource_name": "Котельная Южного микрорайона",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Долги",
+        "date_sd_plan": "2025-07-15",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-08-15",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 31
+      },
+      {
+        "row_number": 12,
+        "id": "3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
+        "heatsource_name": "ТЭЦ-4 ПАО \"Уралкалий\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Сезонный",
+        "type": "Прочее",
+        "date_sd_plan": "2025-08-01",
+        "date_sd_fact": "2025-08-05",
+        "date_inc_plan": "2025-08-31",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 26
+      },
+      {
+        "row_number": 13,
+        "id": "4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d",
+        "heatsource_name": "Котельная Заводского района",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-09-10",
+        "date_sd_fact": "2025-09-15",
+        "date_inc_plan": "2025-09-30",
+        "date_inc_fact": "2025-10-02",
+        "days_difference_fact": 17,
+        "days_difference_plan": 20,
+        "furnace_breach_date": "2025-04-29"
+      },
+      {
+        "row_number": 14,
+        "id": "5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e",
+        "heatsource_name": "БМК \"Галитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Долги",
+        "date_sd_plan": "2025-10-01",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-10-31",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 30
+      }
+    ],
+    "countRecords": 14,
+    "countPages": 2
+  },
+  "shutdown" : {
+    "data": [
+      {
+        "row_number": 1,
+        "id": "0c770417-aa5d-4cd5-8fa6-87b2ee3116e3",
+        "heatsource_name": "Котельная микрорайона ",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-04-15",
+        "date_sd_fact": "2025-04-15",
+        "date_inc_plan": "2025-04-29",
+        "date_inc_fact": "2025-04-29",
+        "days_difference_fact": 14,
+        "days_difference_plan": 14
+      },
+      {
+        "row_number": 2,
+        "id": "0e6b368d-cfe9-48cd-8ecc-93d92d6ceb95",
+        "heatsource_name": "Котельный цех СКРУ-2 ПАО \"Уралкалий\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Долги",
+        "date_sd_plan": "2025-04-04",
+        "date_sd_fact": "2025-04-25",
+        "date_inc_plan": "2025-04-25",
+        "date_inc_fact": "2025-04-27",
+        "days_difference_fact": 2,
+        "days_difference_plan": 21
+      },
+      {
+        "row_number": 3,
+        "id": "41b18098-d671-45f9-8555-60c43e435c74",
+        "heatsource_name": "БМК \"Карналлитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-04-25",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-04-04",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": null
+      },
+      {
+        "row_number": 4,
+        "id": "4af2b444-1232-41cc-8fdd-1948b4eb700a",
+        "heatsource_name": "БМК \"Карналлитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-04-01",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-04-30",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 29
+      },
+      {
+        "row_number": 5,
+        "id": "66962da5-ffc8-413d-aa3c-98b6fd3993ea",
+        "heatsource_name": "Котельная микрорайона ",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-04-04",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-04-30",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 26
+      },
+      {
+        "row_number": 6,
+        "id": "78de4a8f-4c62-47e8-b83b-6e77d6b24a9e",
+        "heatsource_name": "БМК \"Карналлитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Прочее",
+        "date_sd_plan": "2025-04-27",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-04-20",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": null
+      },
+      {
+        "row_number": 7,
+        "id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+        "heatsource_name": "Котельная Северного района",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-05-10",
+        "date_sd_fact": "2025-05-15",
+        "date_inc_plan": "2025-05-25",
+        "date_inc_fact": "2025-05-28",
+        "days_difference_fact": 13,
+        "days_difference_plan": 15
+      },
+      {
+        "row_number": 8,
+        "id": "9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e",
+        "heatsource_name": "ТЭЦ-3 ПАО \"Уралкалий\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Сезонный",
+        "type": "Долги",
+        "date_sd_plan": "2025-05-01",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-05-31",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 30
+      },
+      {
+        "row_number": 9,
+        "id": "0c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
+        "heatsource_name": "Котельная Железнодорожного района",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Прочее",
+        "date_sd_plan": "2025-06-05",
+        "date_sd_fact": "2025-06-10",
+        "date_inc_plan": "2025-06-20",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 15
+      },
+      {
+        "row_number": 10,
+        "id": "1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a",
+        "heatsource_name": "БМК \"Сильвинитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-06-01",
+        "date_sd_fact": "2025-06-01",
+        "date_inc_plan": "2025-06-30",
+        "date_inc_fact": "2025-06-30",
+        "days_difference_fact": 29,
+        "days_difference_plan": 29
+      },
+      {
+        "row_number": 11,
+        "id": "2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b",
+        "heatsource_name": "Котельная Южного микрорайона",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Долги",
+        "date_sd_plan": "2025-07-15",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-08-15",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 31
+      },
+      {
+        "row_number": 12,
+        "id": "3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
+        "heatsource_name": "ТЭЦ-4 ПАО \"Уралкалий\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Сезонный",
+        "type": "Прочее",
+        "date_sd_plan": "2025-08-01",
+        "date_sd_fact": "2025-08-05",
+        "date_inc_plan": "2025-08-31",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 26
+      },
+      {
+        "row_number": 13,
+        "id": "4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d",
+        "heatsource_name": "Котельная Заводского района",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "ППР",
+        "date_sd_plan": "2025-09-10",
+        "date_sd_fact": "2025-09-15",
+        "date_inc_plan": "2025-09-30",
+        "date_inc_fact": "2025-10-02",
+        "days_difference_fact": 17,
+        "days_difference_plan": 20
+      },
+      {
+        "row_number": 14,
+        "id": "5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e",
+        "heatsource_name": "БМК \"Галитовая\"",
+        "municipality": "Соликамский",
+        "is_year_round": "Круглогодичный",
+        "type": "Долги",
+        "date_sd_plan": "2025-10-01",
+        "date_sd_fact": null,
+        "date_inc_plan": "2025-10-31",
+        "date_inc_fact": null,
+        "days_difference_fact": null,
+        "days_difference_plan": 30
+      }
+    ],
+    "countRecords": 14,
+    "countPages": 2
+  },
+  "org_endpoint": {
+    "data": [
+      {
+        "id_org": 9,
+        "org_name": "РусЭнергоСервис",
+        "org_type": "Администрация",
+        "user_count": 12,
+        "phone": "+7(999)888-99-00",
+        "email": "test2@sobaka.ru",
+        "website": "",
+        "id_org_type": 5,
+        "id_tu_mun_raion": 4,
+        "region": "",
+        "guid": "0b33be42-c8a0-448f-8e6e-2a9d89c1e02c",
+        "is_bind_phone": 0,
+        "inn": "7730052050",
+        "id": "439f"
+      },
+      {
+        "id_org": 2,
+        "org_name": "Новая организация",
+        "org_type": "СО",
+        "user_count": 1,
+        "id": "8f33"
+      },
+      {
+        "id_org": 10,
+        "org_name": "Тест РСО",
+        "org_type": "РСО",
+        "user_count": 1,
+        "id": "a60c"
+      },
+      {
+        "id": "09d9",
+        "name": "test23",
+        "inn": "test",
+        "region": "test",
+        "type": "Администрация",
+        "district": "Район 1",
+        "garId": "test2131",
+        "phone": "test",
+        "email": "test",
+        "site": "test",
+        "org_name": "test23",
+        "org_type": "Администрация",
+        "website": "test"
+      },
+      {
+        "id_org": 11,
+        "org_name": "ЭнергоКомплекс",
+        "org_type": "РСО",
+        "user_count": 5,
+        "phone": "+7(495)123-45-67",
+        "email": "info@energokompleks.ru",
+        "website": "energokompleks.ru",
+        "id_org_type": 3,
+        "id_tu_mun_raion": 2,
+        "region": "Московская область",
+        "guid": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "is_bind_phone": 1,
+        "inn": "7712345678",
+        "id": "b2c3"
+      },
+      {
+        "id_org": 12,
+        "org_name": "Городские теплосети",
+        "org_type": "СО",
+        "user_count": 3,
+        "phone": "+7(812)987-65-43",
+        "email": "support@teploset.spb.ru",
+        "website": "",
+        "id_org_type": 2,
+        "id_tu_mun_raion": 5,
+        "region": "Санкт-Петербург",
+        "guid": "b2c3d4e5-f6a7-8901-2345-678901234567",
+        "is_bind_phone": 0,
+        "inn": "7834567890",
+        "id": "c4d5"
+      },
+      {
+        "id_org": 13,
+        "org_name": "ТеплоСервис Плюс",
+        "org_type": "УК",
+        "user_count": 8,
+        "id": "e6f7"
+      },
+      {
+        "id": "g8h9",
+        "name": "ЖКХ Сервис",
+        "inn": "6655443322",
+        "region": "Новосибирская область",
+        "type": "УК",
+        "district": "Центральный район",
+        "garId": "nsb123",
+        "phone": "+7(383)222-33-44",
+        "email": "office@jkhservis.ru",
+        "site": "jkhservis.ru",
+        "org_name": "ЖКХ Сервис",
+        "org_type": "УК",
+        "user_count": 7
+      },
+      {
+        "id": "i0j1",
+        "name": "ЭкоТепло",
+        "inn": "",
+        "region": "Екатеринбург",
+        "type": "СО",
+        "district": "Ленинский район",
+        "garId": "ekb456",
+        "phone": "",
+        "email": "eco@teplo.ru",
+        "site": "",
+        "org_name": "ЭкоТепло",
+        "org_type": "СО",
+        "user_count": 2
+      },
+      {
+        "id": "k2l3",
+        "name": "Администрация Южного округа",
+        "inn": "112233445566",
+        "region": "Краснодарский край",
+        "type": "Администрация",
+        "district": "Южный округ",
+        "garId": "krd789",
+        "phone": "+7(861)777-88-99",
+        "email": "admin@south-district.ru",
+        "site": "south-district.ru",
+        "org_name": "Администрация Южного округа",
+        "org_type": "Администрация",
+        "website": "south-admin.ru",
+        "user_count": 15
+      },
+      {
+        "id_org": 14,
+        "org_name": "Водоканал-Сервис",
+        "org_type": "Водоканал",
+        "user_count": 6,
+        "phone": "+7(343)456-78-90",
+        "email": "vodokanal@ekb.ru",
+        "website": "vodokanal-ekb.ru",
+        "id_org_type": 4,
+        "id_tu_mun_raion": 3,
+        "region": "Свердловская область",
+        "guid": "c3d4e5f6-a7b8-9012-3456-789012345678",
+        "is_bind_phone": 1,
+        "inn": "6677889900",
+        "id": "m4n5"
+      },
+      {
+        "id": "o6p7",
+        "name": "Тестовая организация 2024",
+        "inn": "",
+        "region": "",
+        "type": "",
+        "district": "",
+        "garId": "",
+        "phone": "",
+        "email": "",
+        "site": "",
+        "org_name": "Тестовая организация 2024",
+        "org_type": "",
+        "user_count": 0
+      }
+    ],
+    "countRecords": 14,
+    "countPages": 2
+  },
+  "user_actions_endpoint": {
+    "data": [
+      {
+        "timestamp": "2025-04-16 13:56:46",
+        "action": "Добавление файла",
+        "author": "Админ",
+        "description": "Пользователь (Админ А.А.) добавил файл 4.sig",
+        "changes": [
+          { "field": "Файл", "oldValue": "None", "newValue": "4.sig" }
+        ]
+      },
+      {
+        "timestamp": "2025-04-17 10:22:14",
+        "action": "Удаление файла",
+        "author": "Оператор",
+        "description": "Пользователь (Оператор О.О.) удалил файл 7.xml",
+        "changes": [
+          { "field": "Файл", "oldValue": "7.xml", "newValue": "None" }
+        ]
+      },
+      {
+        "timestamp": "12.04.2025 09:23:15",
+        "action": "Удаление файла",
+        "author": "Иванов И.И.",
+        "description": "Пользователь (Иванов И.И.) удалил файл report.pdf",
+        "changes": [
+          { "field": "Файл", "oldValue": "report.pdf", "newValue": "None" }
+        ]
+      },
+      {
+        "timestamp": "13.04.2025 14:45:22",
+        "action": "Изменение документа",
+        "author": "Петрова С.К.",
+        "description": "Пользователь (Петрова С.К.) изменил документ contract.docx",
+        "changes": [
+          { "field": "Версия", "oldValue": "1.0", "newValue": "1.1" },
+          { "field": "Размер", "oldValue": "245KB", "newValue": "278KB" }
+        ]
+      },
+      {
+        "timestamp": "15.04.2025 11:07:33",
+        "action": "Создание папки",
+        "author": "Сидоров А.В.",
+        "description": "Пользователь (Сидоров А.В.) создал папку /Projects/2025",
+        "changes": [
+          { "field": "Папка", "oldValue": "None", "newValue": "/Projects/2025" }
+        ]
+      },
+      {
+        "timestamp": "16.04.2025 16:30:18",
+        "action": "Переименование",
+        "author": "Козлова Е.П.",
+        "description": "Пользователь (Козлова Е.П.) переименовал файл draft_v1.txt",
+        "changes": [
+          { "field": "Имя файла", "oldValue": "draft_v1.txt", "newValue": "final_v1.txt" }
+        ]
+      },
+      {
+        "timestamp": "17.04.2025 10:15:42",
+        "action": "Изменение прав доступа",
+        "author": "Админ",
+        "description": "Пользователь (Админ А.А.) изменил права доступа к файлу database.db",
+        "changes": [
+          { "field": "Права", "oldValue": "rw-r--r--", "newValue": "rwxr-x---" }
+        ]
+      }
+    ],
+    "countRecords": 14,
+    "countPages": 2
+  },
+  "active_sessions_endpoint": {
+    "data": [
+      {
+        "ip": "192.168.1.105",
+        "browser": "Edge",
+        "os": "Windows 10",
+        "last_active": "2025-05-28 14:22:18",
+        "status": "Активен"
+      },
+      {
+        "ip": "10.0.1.42",
+        "browser": "Safari",
+        "os": "macOS 14.4",
+        "last_active": "2025-05-28 11:05:37",
+        "status": "Неактивен"
+      },
+      {
+        "ip": "172.16.0.88",
+        "browser": "Chrome Mobile",
+        "os": "Android 13",
+        "last_active": "2025-05-28 15:10:55",
+        "status": "Активен"
+      },
+      {
+        "ip": "192.168.0.12",
+        "browser": "Firefox",
+        "os": "Ubuntu 22.04",
+        "last_active": "2025-05-28 16:45:22",
+        "status": "Активен"
+      },
+      {
+        "ip": "10.1.0.156",
+        "browser": "Opera",
+        "os": "Windows 11",
+        "last_active": "2025-05-28 09:30:41",
+        "status": "Неактивен"
+      },
+      {
+        "ip": "172.17.3.77",
+        "browser": "Samsung Internet",
+        "os": "Android 12",
+        "last_active": "2025-05-28 17:18:33",
+        "status": "Активен"
+      },
+      {
+        "ip": "192.168.2.201",
+        "browser": "Chrome",
+        "os": "macOS 13.5",
+        "last_active": "2025-05-28 13:42:09",
+        "status": "Активен"
+      },
+      {
+        "ip": "10.2.1.99",
+        "browser": "Edge Mobile",
+        "os": "iOS 16",
+        "last_active": "2025-05-27 22:15:47",
+        "status": "Неактивен"
+      },
+      {
+        "ip": "172.18.0.5",
+        "browser": "Brave",
+        "os": "Windows 10",
+        "last_active": "2025-05-28 18:01:24",
+        "status": "Активен"
+      },
+      {
+        "ip": "192.168.3.33",
+        "browser": "Firefox Focus",
+        "os": "Android 11",
+        "last_active": "2025-05-28 10:12:56",
+        "status": "Неактивен"
+      },
+      {
+        "ip": "10.3.0.71",
+        "browser": "Safari",
+        "os": "iOS 17",
+        "last_active": "2025-05-28 19:30:15",
+        "status": "Активен"
+      },
+      {
+        "ip": "172.19.1.22",
+        "browser": "Chrome",
+        "os": "ChromeOS 120",
+        "last_active": "2025-05-28 14:55:43",
+        "status": "Активен"
+      },
+      {
+        "ip": "192.168.4.17",
+        "browser": "Yandex Browser",
+        "os": "Windows 11",
+        "last_active": "2025-05-27 23:40:11",
+        "status": "Неактивен"
+      },
+      {
+        "ip": "10.4.2.188",
+        "browser": "DuckDuckGo",
+        "os": "macOS 14.3",
+        "last_active": "2025-05-28 20:22:37",
+        "status": "Активен"
+      },
+      {
+        "ip": "172.20.0.66",
+        "browser": "UC Browser",
+        "os": "Android 10",
+        "last_active": "2025-05-28 08:15:02",
+        "status": "Неактивен"
+      },
+      {
+        "ip": "192.168.5.90",
+        "browser": "Tor Browser",
+        "os": "Linux Mint",
+        "last_active": "2025-05-28 21:05:19",
+        "status": "Активен"
+      }],
+    "countRecords": 16,
+    "countPages": 2
+  },
+
+  "requests_endpoint": {
+    "data": [
+      {
+        "id": 137930,
+        "status": "В работе",
+        "title": "Возникли сложности.",
+        "description": "",
+        "people_count": 28,
+        "type": "МКД",
+        "szo_count": 0,
+        "date": "02 июня 12:00",
+        "executor": "Заворотная О. Б.",
+        "accepted_by": "",
+        "building_type": "МКД",
+        "quantity": "0",
+        "material": "СЗО"
+      },
+      {
+        "id": 137931,
+        "status": "В работе",
+        "title": "Три дня была на даче у родителей. Красили дом...",
+        "description": "В пользу прогресса - наконец-то научились делать краску без запаха и процесс стал почти полностью медитативным. В голове пусто, доска за доской. Минус работу, минус личное, минус курсы, инфляцию, перспективы..",
+        "people_count": 12,
+        "type": "МКД",
+        "szo_count": 0,
+        "date": "02 июня 12:00",
+        "executor": "Разгуляев И.В.",
+        "accepted_by": "Заворотная О. Б."
+      },
+      {
+        "id": 137932,
+        "status": "В работе",
+        "title": "Плановая",
+        "description": "Проверка",
+        "people_count": 11,
+        "type": "МКД",
+        "szo_count": 0,
+        "date": "02 июня 12:00",
+        "executor": "Игоркин Е.В.",
+        "accepted_by": "Заворотная О. Б.",
+        "building_type": "МКД",
+        "quantity": "0",
+        "material": "СЗО"
+      },
+      {
+        "id": 137933,
+        "status": "В работе",
+        "title": "Проблемы на Водоканале.",
+        "description": "Три дня была на даче у родителей. Красили дом. В пользу прогресса - наконец-то научились делать краску без запаха и процесс стал почти полностью медитативным. В голове пусто, доска за доской. Минус работу, минус личное, минус курсы, инфляцию, перспективы..",
+        "people_count": 14,
+        "type": "МКД",
+        "szo_count": 0,
+        "date": "02 июня 12:00",
+        "executor": "",
+        "accepted_by": "Заворотная О. Б.",
+        "building_type": "МКД",
+        "quantity": "0",
+        "material": "СЗО"
+      },
+      {
+        "id": 137934,
+        "status": "В работе",
+        "title": "Плановая",
+        "description": "Плановая заявка. Затон.",
+        "people_count": 2,
+        "type": "МКД",
+        "szo_count": 0,
+        "date": "02 июня 12:00",
+        "executor": "Иванов И.И.",
+        "accepted_by": "Заворотная О. Б.",
+        "building_type": "МКД",
+        "quantity": "0",
+        "material": "СЗО"
+      },
+      {
+        "id": 137935,
+        "status": "В работе",
+        "title": "Плановая",
+        "description": "Плановая Проверка",
+        "people_count": 12,
+        "type": "МКД",
+        "szo_count": 0,
+        "date": "02 июня 12:00",
+        "executor": "",
+        "accepted_by": "Заворотная О. Б.",
+        "building_type": "МКД",
+        "quantity": "0",
+        "material": "СЗО"
+      }
+    ],
+    "countRecords": 6,
+    "countPages": 1
+  },
+
+  "heat_sources" : {
+    "data": [
+      {
+        "row_number": 1,
+        "hs_uuid": "04f68057-a85d-42ca-a4f5-7c38b619db4f",
+        "hs_description_name": "Котельная микрорайона ",
+        "type": "Отдельно стоящая",
+        "hs_owners_owner_name": "Соликамское МУП ",
+        "hs_operating_organizations_oper_org": "Соликамское МУП ",
+        "is_year_round": "Круглогодичный",
+        "municipality_name": "Соликамский",
+        "city_name": "Соликамск",
+        "installed_capacity": 1.72,
+        "street_name": "Парижской Коммуны, 114",
+        "consumers": "МКД, СЗО, ОКИ, Пром, ИЖС",
+        "date_commissioning": "2015"
+      },
+      {
+        "row_number": 2,
+        "hs_uuid": "04f68057-a85d-42ca-a4f5-7c38b619db4f",
+        "hs_description_name": "Котельная микрорайона ",
+        "type": "Отдельно стоящая",
+        "hs_owners_owner_name": "Соликамское МУП ",
+        "hs_operating_organizations_oper_org": "Соликамское МУП ",
+        "is_year_round": "Круглогодичный",
+        "municipality_name": "Соликамский",
+        "city_name": "Соликамск",
+        "installed_capacity": 1.72,
+        "street_name": "Парижской Коммуны, 114",
+        "consumers": "МКД, СЗО, ОКИ, Пром, ИЖС",
+        "date_commissioning": "2015"
+      },
+      {
+        "row_number": 3,
+        "hs_uuid": "04f68057-a85d-42ca-a4f5-7c38b619db4f",
+        "hs_description_name": "Котельная микрорайона ",
+        "type": "Отдельно стоящая",
+        "hs_owners_owner_name": "Соликамское МУП ",
+        "hs_operating_organizations_oper_org": "Соликамское МУП ",
+        "is_year_round": "Круглогодичный",
+        "municipality_name": "Соликамский",
+        "city_name": "Соликамск",
+        "installed_capacity": 1.72,
+        "street_name": "Парижской Коммуны, 114",
+        "consumers": "МКД, СЗО, ОКИ, Пром, ИЖС",
+        "date_commissioning": "2015"
+      },
+      {
+        "row_number": 4,
+        "hs_uuid": "04f68057-a85d-42ca-a4f5-7c38b619db4f",
+        "hs_description_name": "Котельная микрорайона ",
+        "type": "Отдельно стоящая",
+        "hs_owners_owner_name": "Соликамское МУП ",
+        "hs_operating_organizations_oper_org": "Соликамское МУП ",
+        "is_year_round": "Круглогодичный",
+        "municipality_name": "Соликамский",
+        "city_name": "Соликамск",
+        "installed_capacity": 1.72,
+        "street_name": "Парижской Коммуны, 114",
+        "consumers": "МКД, СЗО, ОКИ, Пром, ИЖС",
+        "date_commissioning": "2015"
+      }
+    ],
+    "countRecords": 14,
+    "countPages": 2
+  }
+
+}
+
